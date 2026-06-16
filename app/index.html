@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
@@ -17,25 +17,55 @@
     <div class="overlay"></div>
     <div class="linearGradient"></div>
     <div class="main">
-      <div>
+      <div id="burgerMenuContainer" class="burger-menu">
+        <div id="exitBurger" class="exit-burger"></div>
+        <div class="end center">
+          <div class="menu-burger-menu">
+            <div class="logo-burger-menu">
+              <p class="logoLeftInfo-burger-menu">Sympho</p>
+              <p class="logoRightInfo-burger-menu">Visual</p>
+            </div>
+            <nav class="nav-container-burger-menu">
+              <a href="#firstBlock" id="exitBurger" class="navHref-burger-menu">home</a>
+              <a href="#secondBlock" id="exitBurger" class="navHref-burger-menu">about</a>
+              <a href="#thirdBlock" id="exitBurger" class="navHref-burger-menu">portfolio</a>
+              <a href="#fourthBlock" id="exitBurger" class="navHref-burger-menu">services</a>
+              <a href="#fifthBlock" id="exitBurger" class="navHref-burger-menu">faq</a>
+              <a href="#sixthBlock" id="exitBurger" class="navHref-burger-menu">contacts</a>
+            </nav>
+            <div class="container-start-project-burger-menu">
+              <a href="#sixthBlock" id="exitBurger" class="butConFBStartProj-burger-menu">start project</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <header class="menu">
-          <div class="logo">
-            <p class="logoLeftInfo">Sympho</p>
-            <p class="logoRightInfo">Visual</p>
+      <header class="fixed">
+        <div class="center">
+          <div class="menu">
+            <div class="logo">
+              <p class="logoLeftInfo">Sympho</p>
+              <p class="logoRightInfo">Visual</p>
+            </div>
+            <nav class="nav-container">
+              <a href="#firstBlock" class="navHref">home</a>
+              <a href="#secondBlock" class="navHref">about</a>
+              <a href="#thirdBlock" class="navHref">portfolio</a>
+              <a href="#fourthBlock" class="navHref">services</a>
+              <a href="#fifthBlock" class="navHref">faq</a>
+              <a href="#sixthBlock" class="navHref">contacts</a>
+            </nav>
+            <div class="burger-menu-container">
+              <img id="openBurgerMenu" width="70px" height="70px" class="open-burger-menu" src="./png-klev-club-2g4r-p-tri-poloski-menyu-png-18.png" alt="#">
+            </div>
+            <div class="container-start-project">
+              <a href="#sixthBlock" class="butConFBStartProj">start project</a>
+            </div>
           </div>
-          <nav class="nav-container">
-            <a href="#firstBlock" class="navHref">home</a>
-            <a href="#secondBlock" class="navHref">about</a>
-            <a href="#thirdBlock" class="navHref">portfolio</a>
-            <a href="#fourthBlock" class="navHref">services</a>
-            <a href="#fifthBlock" class="navHref">faq</a>
-            <a href="#sixthBlock" class="navHref">contacts</a>
-          </nav>
-          <div class="container-start-project">
-            <a href="#sixthBlock" class="butConFB">start project</a>
-          </div>
-        </header>
+        </div>
+      </header>
+
+      <div style="width: 80%;">
         <div id="firstBlock">
           <div>
             <div class="logoFB">
@@ -333,6 +363,7 @@
 
           </div>
         </div>
+
         <div id="sixthBlock">
           <div class="linearGradient-sixthBlock"></div>
           <div>
@@ -363,31 +394,21 @@
           </div>
         </div>
 
-
-        <header class="down menu">
-          <div class="logo">
-            <p class="logoLeftInfo">Sympho</p>
-            <p class="logoRightInfo">Visual</p>
+        <div style="width: 100%; background-color: #01001C;">
+          <div class="down menu center">
+            <div class="container-contacts-down-menu">
+              <p class="content-contacts-down-menu">designed by <a target="_blank" class="developer-href" href="https://t.me/SymphoVisual">me</a></p>
+              <p class="content-contacts-down-menu">developed by adanbro</p>
+              <a target="_blank" class="developer-href" href="https://github.com/0adanbro0">github</a>
+              <a class="developer-href" target="_blank" href="https://t.me/ladanbrol">telegram</a>
+            </div>
           </div>
-          <nav class="nav-container">
-            <a href="#firstBlock" class="navHref">home</a>
-            <a href="#secondBlock" class="navHref">about</a>
-            <a href="#thirdBlock" class="navHref">portfolio</a>
-            <a href="#fourthBlock" class="navHref">services</a>
-            <a href="#fifthBlock" class="navHref">faq</a>
-            <a href="#sixthBlock" class="navHref">contacts</a>
-          </nav>
-          <div class="container-contacts-down-menu">
-            <p class="content-contacts-down-menu">designed by <a target="_blank" class="developer-href" href="https://t.me/SymphoVisual">me</a></p>
-            <p class="content-contacts-down-menu">developed by adanbro</p>
-            <a target="_blank" class="developer-href" href="https://github.com/0adanbro0">github</a>
-            <a class="developer-href" target="_blank" href="https://t.me/ladanbrol">telegram</a>
-          </div>
-        </header>
 
-        <div class="center content-contacts-down-menu finish">© Boris Brilev SimphoVisual</div>
+          <div class="center content-contacts-down-menu finish">© Boris Brilev SimphoVisual</div>
+        </div>
 
       </div>
+
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
