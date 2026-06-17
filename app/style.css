@@ -1227,7 +1227,7 @@ html{
         width: 80%;
         display: flex;
         flex-direction: column;
-        height: 80px;
+        height: 100vh;
         gap: 10px;
     }
 
@@ -1259,7 +1259,7 @@ html{
 
     .logoLeftInfo-burger-menu, .logoRightInfo-burger-menu{
         font-size: 50px !important; 
-        margin-top: 100px;
+        margin-top: 5vh;
     }
 
     .logoLeftInfo-burger-menu{
@@ -1288,7 +1288,7 @@ html{
         flex-direction: column;
         align-items: center;
         gap: 50px;
-        margin-top: 50px;
+        margin-top: 5vh;
     }
 
     .navHref-burger-menu{
@@ -1297,7 +1297,7 @@ html{
     }
 
     .container-start-project-burger-menu{
-        margin-top: 100px;
+        margin-top: 5vh;
         height: 70px;
         display: flex;
         justify-content: center;
@@ -1329,6 +1329,7 @@ html{
     }
 
 }
+
 
 
 
@@ -2148,5 +2149,13 @@ html{
 
     .end{
         width: 100vw;
+    }
+}
+
+
+
+@media screen and (max-width: 694px) and (min-width: 690px) {
+    .infoFB{
+        font-size: 33.7px;
     }
 }
